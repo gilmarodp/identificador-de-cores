@@ -8,7 +8,7 @@ from src.device import show_devices_and_get_answer
 def main():
     index_camera = show_devices_and_get_answer()
     
-    camera = cv.VideoCapture(index_camera)
+    camera = cv.VideoCapture(index_camera, cv.CAP_DSHOW)
     
     while True:
         
@@ -102,4 +102,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    cv.destroyAllWindows()
     
