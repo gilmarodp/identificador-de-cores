@@ -24,9 +24,9 @@ Logo após a clonagem do repositório na sua máquina, basta entrar na pasta do 
 
 	cd identificador-de-cores
 
-Entre os arquivos do projeto, deixei um arquivo especial para o python, o `requirements.txt`que é o responsável por guardar todas as bibliotecas que o projeto depende, então para instalar todas elas basta executar o seguinte comando no seu prompt de comando ou terminal:
+Entre os arquivos do projeto, deixei um arquivo especial para o python, o `requirements.txt` que é o responsável por guardar todas as bibliotecas que o projeto depende, então para instalar todas elas basta executar o seguinte comando no seu prompt de comando ou terminal:
 
-    pip -r install requirements.txt
+    pip install -r requirements.txt
 
 Você só vai precisar a instalação de todas as dependências e daí vai conseguir utilizar tranquilamente o projeto.
 
